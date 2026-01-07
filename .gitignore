@@ -1,0 +1,28 @@
+# --- Environment / Secrets ---
+.env
+.venv
+env/
+venv/
+ENV/
+auth.json
+
+# --- Python Cache & Compiled Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db
+
+# --- IDEs ---
+.vscode/
+.idea/
+*.swp
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg-info/
